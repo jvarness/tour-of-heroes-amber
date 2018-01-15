@@ -23,5 +23,6 @@ Amber::Server.configure do |app|
 
   routes :web do
     get "/", HomeController, :index
+    get "/hello", HelloController, :index
   end
 end
